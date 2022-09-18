@@ -7,6 +7,6 @@ public class Main {
         new BonusTaskInit(
                 "././bonusTaskMock.txt",
                 "\\d+",
-                11).run();
+                10).run();
     }
 }
