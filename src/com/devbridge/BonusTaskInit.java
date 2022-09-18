@@ -29,7 +29,7 @@ public class BonusTaskInit {
      */
     public void run(){
         BonusTaskStringSearcher reader = new BonusTaskStringSearcher();
-        BonusTaskConsoleMessenger.printWelcome();
+        BonusTaskConsoleMessenger.printWelcome(filePathAndName, pattern, searchIntGreaterOrEqualTo);
         BonusTaskConsoleMessenger.print(reader.getStringsFromFile(
                 filePathAndName,
                 pattern,
