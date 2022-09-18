@@ -1,4 +1,4 @@
-package com.devbridge.files;
+package com.devbridge.search;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

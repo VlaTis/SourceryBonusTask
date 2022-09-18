@@ -1,7 +1,7 @@
 package com.devbridge;
 
 import com.devbridge.console.BonusTaskConsoleMessenger;
-import com.devbridge.files.BonusTaskStringSearcher;
+import com.devbridge.search.BonusTaskStringSearcher;
 import java.util.regex.Pattern;
 
 /** Class that initiates program
