@@ -26,7 +26,8 @@ abc999l0j
 ## Run application
 Simply run Main method in main class
 
-####Default Settings for the task:
+###Default Settings for the task:
+
 `filePathAndName` = "././bonusTaskMock.txt" </br>
 `pattern` = "\\d+"                          </br>
 `searchIntGreaterOrEqualTo` = 10
@@ -34,15 +35,15 @@ Simply run Main method in main class
 ### Configuration
 even though its simple console app, but you can change some settings.
 
-
-####Change file:
+###Change file:
 In the Main class change hardcoded value `filePathAndName`.
-####Change Regex pattern:
+
+###Change Regex pattern:
 In the Main class change hardcoded value `pattern`.
 > warning: **changing regex which does not satisfy task may break the code**
 
 
-####Change Comparable number:
+###Change Comparable number:
 In the Main class change hardcoded value `searchIntGreaterOrEqualTo`.
 > warning: **changing Comparable number which does not satisfy task may break the code**
 
